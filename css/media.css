@@ -1,0 +1,26 @@
+div#tv-radio {
+    width: 900px ;
+    height: 580px;
+    margin: auto;
+    background: url("../curso-html5-pacote01/projeto-glass-html5/_imagens/radio-tv.png");
+}
+audio#musica{
+    display: block;
+    position: relative;
+    left: 575px;
+    top: 500px;
+    width: 300px;
+}
+video#filme{
+    display: block;
+    position: relative;
+    left: 90px;
+    top: 0px;
+    width: 440px;
+}
+#musica{
+    height: 30px;
+}
+#filme{
+    height: 370px;
+}

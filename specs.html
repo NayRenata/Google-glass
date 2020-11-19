@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="BR-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tudo sobre Google Glass</title>
+
+    <link href="css/estilo.css" rel="stylesheet">
+    <link href="curso-html5-pacote01\projeto-glass-html5\css/specs.css" rel="stylesheet">
+
+    <script language="javascript" src="curso-html5-pacote01\projeto-glass-html5\javascript/funcoes.js"> </script>
+    
+
+</head>
+
+<body>
+
+
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            <figure>
+                <img id="icone" src="curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png"
+                    alt="especificacoes">
+            </figure>
+
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ol type="1" start="1">
+                    <li onmouseover="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/home.png')"
+                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')"><a
+                            href="index.html">Home</a></li>
+
+                    <li onmouseover="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')"><a
+                            href="specs.html">Especificações</a></li>
+
+                    <li onmouseover="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/fotos.png')"
+                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')"><a
+                            href="specs.html"><a href="fotos.html">Fotos</a></li>
+
+                    <li onmouseover="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/multimidia.png')"
+                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')"><a
+                            href="multimidia.html"> Multimídia</a></li>
+
+                    <li onmouseover="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/contato.png')"
+                        onmouseout="mudaFoto('curso-html5-pacote01/projeto-glass-html5/imagens/especificacoes.png')"><a
+                            href="fale-conosco.html"> Fale conosco</a></li>
+                    <!--                  <ul type="square">
+                      <li>N.Black</li>
+                    </ul> -->
+                </ol>
+
+            </nav>
+        </header>
+
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Glass >&nbsp; Especificações</h3>
+                        <h1>Raio-X no Google Glass</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="direita">Atualizado em 28/10/2020</h3>
+                    </hgroup>
+                </header>
+            </article>
+
+        </section>
+
+
+        <p> Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass.
+            Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+        </p>
+
+     
+
+        <section id="conteudo">
+            <h1>Raio-X no Google Glass</h1>
+            <img src="curso-html5-pacote01/projeto-glass-html5/imagens/glass-esquema-marcado.jpg" usemap="#meumapa" >
+
+            <map name="meumapa">
+                <area shape="rect" coords="181,216,269,245" href="google-glass.html#tela" target="janela" >
+                <area shape="circle" coords="159,245,12" href="google-glass.html#camera" target="janela" >
+                <area shape="circle" coords="77,53,12" href="google-glass.html#gadgets" target="janela" >
+                <area shape="poly" coords="27,144,81,212,82,250,28,167" href="google-glass.html#sensores" target="janela">
+            </map>
+
+            <iframe  src="google-glass.html" name="janela" id="frame-spec"></iframe>
+        </section>
+
+
+        <footer id="rodape">
+
+            <p> Copyright 2013 - by Nayara Renata <br><br>
+                <a href="https://www.facebook.com/nayararenata.costa" target="_black"> Facebook<a> |
+                        <a href="https://www.instagram.com/nay_re/?hl=pt-br" target="_black"> Instagram</a> </p>
+        </footer>
+    </div>
+</body>
+
+</html>
