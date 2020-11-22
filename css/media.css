@@ -11,12 +11,13 @@ audio#musica{
     top: 500px;
     width: 300px;
 }
-video#filme{
+video#filme3{
     display: block;
     position: relative;
-    left: 90px;
-    top: 0px;
-    width: 440px;
+    left: 85px;
+    top: 20px;
+    width: 450px;
+    height: 330px;
 }
 #musica{
     height: 30px;
