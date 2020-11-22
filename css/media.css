@@ -2,7 +2,7 @@ div#tv-radio {
     width: 900px ;
     height: 580px;
     margin: auto;
-    background: url("../curso-html5-pacote01/projeto-glass-html5/_imagens/radio-tv.png");
+    background: url("../curso-html5-pacote01/projeto-glass-html5/imagens/radio-tv.png");
 }
 audio#musica{
     display: block;

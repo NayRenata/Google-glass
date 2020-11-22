@@ -16,3 +16,7 @@ ul#album-fotosli{
     background-color:#ffffff ;
     box-shadow: 1px 1px 3px rgba(0,0,0,.4);
 }
+
+ul#album-fotos li#foto01{
+    background: url(curso-html5-pacote01/projeto-glass-html5/imagens/galeria-01.jpg)no-repeat ;
+    }

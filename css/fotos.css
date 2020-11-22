@@ -34,7 +34,7 @@ ul#album-fotos li:hover span{
 }
 
 ul#album-fotos li#foto01{
-    background: url('../curso-html5-pacote01/projeto-glass-html5/_imagens/galeria-01.jpg') no-repeat;
+    background: url('../curso-html5-pacote01/projeto-glass-html5/imagens/galeria-01.jpg') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;
@@ -45,7 +45,7 @@ ul#album-fotos li#foto01:hover{
     background-size: 200px 200px;
 }
 ul#album-fotos li#foto02{
-    background: url('../curso-html5-pacote01/projeto-glass-html5/_imagens/galeria-02.jpg') no-repeat;
+    background: url('../curso-html5-pacote01/projeto-glass-html5/imagens/galeria-02.jpg') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
 }
@@ -54,7 +54,7 @@ ul#album-fotos li#foto02:hover{
     background-size: 200px 200px;}
 
 ul#album-fotos li#foto03{
-    background: url('../curso-html5-pacote01/projeto-glass-html5/_imagens/galeria-03.jpg');
+    background: url('../curso-html5-pacote01/projeto-glass-html5/imagens/galeria-03.jpg');
     background-position: 50% 50%;
     background-size: 400px;
 }
@@ -66,7 +66,7 @@ ul#album-fotos li#foto03:hover{
 
 
 ul#album-fotos li#foto04{
-    background: url('../curso-html5-pacote01/projeto-glass-html5/_imagens/galeria-04.jpg') no-repeat;
+    background: url('../curso-html5-pacote01/projeto-glass-html5/imagens/galeria-04.jpg') no-repeat;
     background-position: 50% 50%;
     background-size: 400px;
 }
@@ -76,7 +76,7 @@ ul#album-fotos li#foto04:hover{
 }
 
 ul#album-fotos li#foto05{
-    background: url('../curso-html5-pacote01/projeto-glass-html5/_imagens/galeria-05.jpg')no-repeat;
+    background: url('../curso-html5-pacote01/projeto-glass-html5/imagens/galeria-05.jpg')no-repeat;
     background-position: 50% 50%;
     background-size: 400px;
 }
@@ -86,7 +86,7 @@ ul#album-fotos li#foto05:hover{
 }
 
 ul#album-fotos li#foto06{
-    background: url('../curso-html5-pacote01/projeto-glass-html5/_imagens/galeria-06.jpg')no-repeat;
+    background: url('../curso-html5-pacote01/projeto-glass-html5/imagens/galeria-06.jpg')no-repeat;
     background-position: 50% 50%;
     background-size: 400px;
     background-color: #ffffff;
